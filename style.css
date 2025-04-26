@@ -24,8 +24,27 @@ div:has(> img) {
 }
 
 footer {
+    border-top: 1px solid #CCC;
     margin-top: 30px;
-    border-top: 1px;
     padding-top: 4px;
     text-align: center;
+}
+
+article h2 {
+    background-color: #555;
+    color: #FFF;
+    padding: 32px 10px;
+    text-align: center;
+}
+
+aside {
+    width: 200px;
+}
+
+.banner-container-section > div {
+    margin-top: 5px;
+}
+
+.profile-image {
+    width: 100%;
 }
